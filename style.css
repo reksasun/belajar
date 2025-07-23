@@ -131,4 +131,20 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.gambar-kita {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
+@media (max-width: 768px) {
+  .gambar-kita {
+    flex-direction: column;
+  }
+}

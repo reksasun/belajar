@@ -1,1 +1,134 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ffe0e9, #fff);
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url('https://i.postimg.cc/qJyMLMRS/9f69406b-8487-40cb-9919-733232d45d1f.jpg');
+  background-size: cover;
+  background-position: center 70%;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.detail p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.btn {
+  background: #ff69b4;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c71585;
+}
+
+.form-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff0f5;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #c71585;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  background: #fff;
+  color: #c71585;
+}
+.gallery {
+  padding: 60px 20px;
+  background-color: #fff0f5;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.photo-grid img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+html {
+  scroll-behavior: smooth;
+}
 
